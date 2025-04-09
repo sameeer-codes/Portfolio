@@ -23,17 +23,17 @@ const swiper = new Swiper('.swiper', {
     },
 });
 
-const cursor = document.getElementById('cursor');
+// const cursor = document.getElementById('cursor');
 
-window.addEventListener('mousemove', function (e) {
-    let x = e.clientX;
-    let y = e.clientY;
+// window.addEventListener('mousemove', function (e) {
+//     let x = e.clientX;
+//     let y = e.clientY;
 
-    // Adjust cursor position so the center aligns with the mouse
-    const cursorSize = 15; // Width and height of the cursor
-    cursor.style.left = `${x - cursorSize / 2}px`;
-    cursor.style.top = `${y - cursorSize / 2}px`;
+//     // Adjust cursor position so the center aligns with the mouse
+//     const cursorSize = 15; // Width and height of the cursor
+//     cursor.style.left = `${x - cursorSize / 2}px`;
+//     cursor.style.top = `${y - cursorSize / 2}px`;
 
-    // Show cursor when mouse moves
-    cursor.style.opacity = 1;
-});
+//     // Show cursor when mouse moves
+//     cursor.style.opacity = 1;
+// });

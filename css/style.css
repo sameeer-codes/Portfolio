@@ -97,6 +97,7 @@ b {
     font-weight: 700;
 }
 
+/* 
 .cursor {
     position: absolute;
     opacity: 0;
@@ -111,8 +112,7 @@ b {
 
 .cursor:hover {
     transform: scale(1.5);
-    /* Scaling the cursor on hover */
-}
+} */
 
 header {
     position: fixed;
